@@ -1,0 +1,21 @@
+{
+  "name": "JavaScriptModules",
+  "version": "1.0.0",
+  "description": "How to organize your JavaScript modules, build them with RequireJS, lint them with JSHint and test them with Jasmine",
+  "scripts": {
+    "start": "grunt dev",
+    "test": "grunt test"
+  },
+  "author": "Adam Beres-Deak <me@bdadam.com> (http://bdadam.com/)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-concurrent": "~0.4.2"
+  }
+}
